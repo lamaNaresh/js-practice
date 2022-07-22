@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.color-box {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.color-box__txt {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.color-box__btn {
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.color-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    list-style: none;
+    padding-inline-start: unset;
+}
+
+.color-list__item {
+    width: 100%;
+    line-height: 200px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.color-list__item:nth-child(1) {
+    background-color: #FF0000;
+}
+
+.color-list__item:nth-child(2) {
+    background-color: #00FF00;
+}
+
+.color-list__item:nth-child(3) {
+    background-color: #0000FF;
+}
+
+.date-box {
+    width: 1050px;
+    padding: 30px;
+    margin: 30px auto;
+    border: 1px solid #000;
+}
+
+.date-box__input {
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
